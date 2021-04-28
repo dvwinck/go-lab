@@ -20,4 +20,8 @@ func main() {
     fmt.Println(int64(d))
 
     fmt.Println(math.Sin(n))
+
+	var testInt int64 =  int64( 10 * math.Sin(n))
+	fmt.Println(testInt)
+	fmt.Println(float32(testInt*1.0)/10.0)
 }
