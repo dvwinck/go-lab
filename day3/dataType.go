@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 )
 
@@ -27,5 +28,21 @@ func main() {
 	var exemploByte byte = 25
 
 	fmt.Println(exemploRune, exemploByte)
+
+	var f32 float32 = 3.14
+	var f64 float64 = 3.1415
+
+	fmt.Println(f32, f64)
+
+	var str1 string = "value 1 "
+	str2 := "value 2 "
+	char := 'D'
+	print(str1, str2, char, " ")
+
+	var boleano bool = true
+	fmt.Println(boleano)
+
+	var erroExemplo error = errors.New("erro interno")
+	fmt.Println(erroExemplo)
 
 }
