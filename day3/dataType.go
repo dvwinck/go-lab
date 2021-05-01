@@ -12,7 +12,6 @@ func main() {
 		i32 int32 = 32
 		i64 int64 = 64
 	)
-	fmt.Println(i, i8, i16, i32, i64)
 
 	var (
 		u   uint   = 0
@@ -23,5 +22,10 @@ func main() {
 	)
 	fmt.Println(i, i8, i16, i32, i64)
 	fmt.Println(u, u8, u16, u32, u64)
+
+	var exemploRune rune = 25
+	var exemploByte byte = 25
+
+	fmt.Println(exemploRune, exemploByte)
 
 }
